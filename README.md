@@ -1,4 +1,4 @@
-# JWT Authentication/Authorization with standard scopes claim
+# JWT Authentication/Authorization with standard scope claim
 
 This repository demonstrates how to use JWT authentication in the Router with the `@requiresScopes` directive when the JWT uses the standard `scope` JWT claim which is typical in a OAuth or OIDC environment.
 
