@@ -1,0 +1,12 @@
+# Enforce JWT authentication and enable AuthZN directives
+authorization:
+  require_authentication: true
+  directives:
+    enabled: true
+
+# Setup JWKS endpoint to validate incoming JWTs
+authentication:
+  router:
+    jwt:
+      jwks:
+        - url: http://localhost:3005/.well-known/jwks.json

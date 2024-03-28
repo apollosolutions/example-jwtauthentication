@@ -1,0 +1,6 @@
+extend schema @link(url: "https://specs.apollo.dev/federation/v2.6", import: ["@requiresScopes"])
+
+type Query {
+  hello: String @requiresScopes(scopes: [["read:hello"]])
+  hello2: String @requiresScopes(scopes: [["read:hello2"]])
+}
