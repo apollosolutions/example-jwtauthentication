@@ -1,0 +1,7 @@
+name: example-jwtauthentication
+description: A demonstration of how to use JWT authentication in the router with
+  the `@requiresScopes` directive when the JWT uses the standard scope JWT
+  claim.
+tags:
+  - Authentication
+  - Router
